@@ -19,4 +19,7 @@ xcopy "%LocalAppData%\Microsoft\Edge\User Data\Default\" "%LocalAppData%\Microso
 :: Rename the Preferences file
 move "%LocalAppData%\Microsoft\Edge\User Data\Default\Preferences" "%LocalAppData%\Microsoft\Edge\User Data\Default\Preferences.bak-%timestamp%"
 
+:: Open MS Edge
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+
 endlocal
